@@ -32,7 +32,7 @@ To contribute to this project, you must be a current student of Caleb University
 
 2. **Clone the Repository:** Clone the forked repository to your local machine using the following command:
    ```bash
-   git clone https://github.com/your-username/caleb-cafeteria.git
+   https://github.com/JeffreyOmoakah/Caleb-cafeteria.git
    ```
 
 3. **Create a Branch:** Create a new branch for your contributions:
