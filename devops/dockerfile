@@ -1,0 +1,40 @@
+# Stage 1: Build Next.js application
+FROM node:14 AS builder
+
+WORKDIR /app
+
+# Copy only the package.json and yarn.lock initially to leverage Docker cache
+COPY package.json yarn.lock ./
+
+# Install dependencies
+RUN yarn install
+
+# Copy the entire application
+COPY . .
+
+# Build the Next.js application
+RUN yarn build
+
+# Stage 2: Build Flask application with the Next.js build output
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Copy the built Next.js files from the previous stage
+COPY --from=builder /app/.next /app/.next
+
+# Copy Flask application files
+COPY ./backend /app/backend
+
+# Install Flask dependencies
+RUN pip install --no-cache-dir -r /app/backend/requirements.txt
+
+# Set the environment variables
+ENV FLASK_APP=/app/backend/app.py
+ENV FLASK_RUN_HOST=0.0.0.0
+
+# Expose the Flask app port
+EXPOSE 5000
+
+# Start the Flask application
+CMD ["flask", "run"]
