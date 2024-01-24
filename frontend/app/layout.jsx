@@ -1,4 +1,5 @@
 import '@/app/globals.css'
+import Nav from '@app/components/BottomNav'
 
 export const metadata = {
     title: "Caleb Cafeteria App",
@@ -11,6 +12,7 @@ const layout = ({children}) => {
         <body>
             <main>
                 {children}
+                
             </main>
         </body>
     </html>

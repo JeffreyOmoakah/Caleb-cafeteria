@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import BottomNav from '@components/BottomNav'
+import BottomNav from '@app/components/BottomNav'
 import imagePaths from '@public/assets/imagePaths';
 
 const Home = () => {
