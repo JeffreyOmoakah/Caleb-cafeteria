@@ -4,7 +4,7 @@ import Nav from '@app/components/BottomNav.jsx'
 
 const page = () => {
   return (
-    <section className='flex-col-start mx-6 mt-4 mb-12'>
+    <section className='flex_col_start mx-6 mt-4 mb-12'>
       <h1 className='big_text w-fit'>Profile</h1>
       <div className='flex items-center justify-start gap-3 mt-12'>
         <Image 
@@ -12,12 +12,12 @@ const page = () => {
         width={60}
         height={60}
         />
-        <div className='flex-col-start gap-1'>
+        <div className='flex_col_start gap-1'>
           <h2 className='sub_title_text'>Alvin John</h2>
           <p className='small_text'>View profile</p>
         </div>
       </div>
-      <div className='flex-col-start mt-10'>
+      <div className='flex_col_start mt-10'>
         <div className='rounded-[8px] border-[1px] border-solid border-[#EFF0F2] p-4 flex items-center justify-start gap-3'>
           <Image 
           src={imagePaths.notis}
@@ -53,7 +53,7 @@ const page = () => {
       </div>
 
       <div className='w-full flex items-center justify-center'>
-        <button className='log_out_btn mt-[40px]'>Log Out</button>
+        <button className='sec_btn mt-[40px]'>Log Out</button>
       </div>
       
       <Nav/>
