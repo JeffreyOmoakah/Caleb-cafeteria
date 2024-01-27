@@ -1,35 +1,20 @@
 {
   "pages": {
-    "/pages/layout": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/pages/layout.css",
-      "static/chunks/app/pages/layout.js"
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
-    "/pages/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/pages/page.js"
+      "static/chunks/app/page.js"
     ],
     "/pages/reset-password/success/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/pages/reset-password/success/page.js"
-    ],
-    "/pages/reset-password/change-password/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/pages/reset-password/change-password/page.js"
-    ],
-    "/pages/reset-password/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/pages/reset-password/page.js"
-    ],
-    "/pages/reset-password/check-inbox/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/pages/reset-password/check-inbox/page.js"
     ]
   }
 }
