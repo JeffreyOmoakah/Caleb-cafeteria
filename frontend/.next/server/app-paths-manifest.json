@@ -1,4 +1,6 @@
 {
+  "/not-found": "app/not-found.js",
   "/page": "app/page.js",
-  "/pages/reset-password/success/page": "app/pages/reset-password/success/page.js"
+  "/pages/reset-password/success/page": "app/pages/reset-password/success/page.js",
+  "/pages/bag/page": "app/pages/bag/page.js"
 }

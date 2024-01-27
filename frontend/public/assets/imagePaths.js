@@ -9,13 +9,15 @@ import profile from '@public/assets/profile-pic.jpg';
 import review from '@public/assets/review.svg';
 import notis from '@public/assets/notis.svg';
 import account from '@public/assets/account.svg';
-import help from '@public/assets/help.svg'
-import success from '@public/assets/success.png'
+import help from '@public/assets/help.svg';
+import success from '@public/assets/success.png';
+import emptyBag from '@public/assets/empty-bag.jpg';
 
 const imagePaths = {
   success,
   user,
   home,
+  emptyBag,
   bag,
   arrowLeft,
   add,
