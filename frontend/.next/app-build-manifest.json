@@ -21,10 +21,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/pages/bag/page.js"
     ],
-    "/not-found": [
+    "/pages/receipts/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/pages/receipts/page.js"
+    ],
+    "/pages/receipts/order-again/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pages/receipts/order-again/page.js"
     ]
   }
 }

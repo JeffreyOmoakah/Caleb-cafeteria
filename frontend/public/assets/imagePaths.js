@@ -12,6 +12,7 @@ import account from '@public/assets/account.svg';
 import help from '@public/assets/help.svg';
 import success from '@public/assets/success.png';
 import emptyBag from '@public/assets/empty-bag.jpg';
+import semo from '@public/assets/semo.jpg';
 
 const imagePaths = {
   success,
@@ -28,6 +29,7 @@ const imagePaths = {
   notis,
   account,
   help,
+  semo,
 };
 
 export default imagePaths;

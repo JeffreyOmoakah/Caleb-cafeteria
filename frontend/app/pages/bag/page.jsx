@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import ImagePaths from '@public/assets/imagePaths.js'
 import Bag from '@app/components/bag.jsx'
+import Nav from '@app/components/BottomNav.jsx'
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
         <p className='sub_tittle_text'>0 item(s)</p>
       </div>
       <Bag/>
+      <Nav />
       </section>
   )
 }
