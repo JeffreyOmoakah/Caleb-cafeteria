@@ -13,6 +13,8 @@ import help from '@public/assets/help.svg';
 import success from '@public/assets/success.png';
 import emptyBag from '@public/assets/empty-bag.jpg';
 import semo from '@public/assets/semo.jpg';
+import oldCaf from '@public/assets/old-caf-card.jpg';
+import newCaf from '@public/assets/new-caf-card.jpg';
 
 const imagePaths = {
   success,
@@ -30,6 +32,8 @@ const imagePaths = {
   account,
   help,
   semo,
+  newCaf,
+  oldCaf,
 };
 
 export default imagePaths;

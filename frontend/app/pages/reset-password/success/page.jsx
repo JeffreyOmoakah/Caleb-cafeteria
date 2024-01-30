@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import ImagePaths from '@/public/assets/imagePaths.js'
-
+import Link from 'next/link'
 const success = () => {
   return (
     <section className='mx-6 py-8 flex flex-col items-start justify-between relative h-[100vh]'>
@@ -16,8 +16,9 @@ const success = () => {
         <p className='small_text' style={{fontSize:'16px'}}>You've successfully rest your password</p>
         
       </div>
-
-      <button className='primary_btn'>Continue to homepage</button>
+      <Link href='/' className='w-full'>
+        <button className='primary_btn'>Continue to homepage</button>
+      </Link>
     </section>
   )
 }

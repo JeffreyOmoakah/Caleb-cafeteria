@@ -1,3 +1,72 @@
 {
-  "pages": {}
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/pages/reset-password/check-inbox/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pages/reset-password/check-inbox/page.js"
+    ],
+    "/pages/reset-password/change-password/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pages/reset-password/change-password/page.js"
+    ],
+    "/pages/reset-password/success/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pages/reset-password/success/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/pages/onboarding/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pages/onboarding/layout.js"
+    ],
+    "/pages/onboarding/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pages/onboarding/page.js"
+    ],
+    "/pages/onboarding/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pages/onboarding/login/page.css",
+      "static/chunks/app/pages/onboarding/login/page.js"
+    ],
+    "/pages/reset-password/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pages/reset-password/page.js"
+    ],
+    "/pages/onboarding/signup/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pages/onboarding/signup/page.css",
+      "static/chunks/app/pages/onboarding/signup/page.js"
+    ],
+    "/pages/bag/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pages/bag/page.js"
+    ],
+    "/pages/profile/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pages/profile/page.js"
+    ],
+    "/pages/receipts/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pages/receipts/page.js"
+    ]
+  }
 }

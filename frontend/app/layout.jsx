@@ -8,7 +8,7 @@ export const metadata = {
 
 const layout = ({children}) => {
   return (
-    <html lang='en'>
+    <html lang='en' className='h-auto'>
         <body>
             <main>
                 {children}

@@ -102,6 +102,7 @@ body {
     border-radius: 8px;
     border: 1px solid var(--Neutral-medium, #EFF0F2);
     background: #FFF;
+    width: 100%;
 }
 
 .checkbox {
@@ -134,3 +135,65 @@ body {
     font-weight: 500;
     line-height: 20px;
 }
+
+
+.submenu {
+    display: flex;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch; 
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    scroll-behavior: smooth;
+    justify-content: space-around;
+    align-items: center;
+    transition: border-bottom 0.3s ease-in;
+    
+ }
+
+.submenu::-webkit-scrollbar {
+    display: none;
+}
+
+.submenu-wrapper {
+    position: relative;
+    margin: 2rem 4rem ;
+}
+
+
+.submenu button {
+    display: flex;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+    padding-bottom: 2px;
+    margin-bottom: 2rem;
+    text-align: center; 
+    min-width: fit-content;
+    font-family: var(--font-base);
+}
+
+
+.submenu button.active {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #fff;
+  transition: border-color 0.5s ease;
+  z-index: 1000;
+}
+ 
+@media  screen and (max-width: 1200px) {
+      .submenu button {
+          margin-right: 3rem;
+      }
+  }
+  @media  screen and (max-width: 900px) {
+      .submenu {
+          justify-content: flex-start;
+      }
+      .submenu button {
+          margin-right: 2rem;
+      }
+  }
